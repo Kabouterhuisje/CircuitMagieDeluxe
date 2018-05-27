@@ -1,0 +1,15 @@
+c:\users\kane\documents\visual studio 2015\Projects\CircuitMagieDeluxe\CircuitMagieDeluxe\bin\Debug\CircuitMagieDeluxe.exe.config
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\bin\Debug\CircuitMagieDeluxe.exe.config
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\bin\Debug\CircuitMagieDeluxe.exe
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\bin\Debug\CircuitMagieDeluxe.pdb
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\obj\Debug\CircuitMagieDeluxe.csprojResolveAssemblyReference.cache
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\obj\Debug\MainWindow.g.cs
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\obj\Debug\App.g.cs
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\obj\Debug\CircuitMagieDeluxe_MarkupCompile.cache
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\obj\Debug\CircuitMagieDeluxe_MarkupCompile.lref
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\obj\Debug\MainWindow.baml
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\obj\Debug\CircuitMagieDeluxe.g.resources
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\obj\Debug\CircuitMagieDeluxe.Properties.Resources.resources
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\obj\Debug\CircuitMagieDeluxe.csproj.GenerateResource.Cache
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\obj\Debug\CircuitMagieDeluxe.exe
+C:\Users\Kane\Desktop\School\DP1\CircuitMagieDeluxe\CircuitMagieDeluxe\obj\Debug\CircuitMagieDeluxe.pdb
