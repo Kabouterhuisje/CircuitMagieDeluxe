@@ -63,12 +63,25 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CircuitBuilder.cs" />
+    <Compile Include="Helpers\HelperNode.cs" />
+    <Compile Include="Helpers\LineReader.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\AndNode.cs" />
+    <Compile Include="Models\BaseNode.cs" />
+    <Compile Include="Models\INode.cs" />
+    <Compile Include="Models\NandNode.cs" />
+    <Compile Include="Models\NodeFactory.cs" />
+    <Compile Include="Models\NorNode.cs" />
+    <Compile Include="Models\NotNode.cs" />
+    <Compile Include="Models\OrNode.cs" />
+    <Compile Include="Models\Probe.cs" />
+    <Compile Include="Models\XorNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
