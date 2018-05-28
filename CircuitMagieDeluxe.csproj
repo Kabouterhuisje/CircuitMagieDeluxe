@@ -64,8 +64,11 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CircuitBuilder.cs" />
+    <Compile Include="CircuitSimulator.cs" />
+    <Compile Include="Helpers\CheckboxManager.cs" />
     <Compile Include="Helpers\HelperNode.cs" />
     <Compile Include="Helpers\LineReader.cs" />
+    <Compile Include="Helpers\OutputPrinter.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

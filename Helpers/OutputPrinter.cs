@@ -21,7 +21,7 @@ namespace CircuitMagieDeluxe.Helpers
 
         public override Encoding Encoding
         {
-            get { return System.Text.Encoding.UTF8; }
+            get { return Encoding.UTF8; }
         }
     }
 }

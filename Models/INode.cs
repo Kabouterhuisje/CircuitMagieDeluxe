@@ -14,11 +14,8 @@ namespace CircuitMagieDeluxe.Models
         List<INode> NextNodes { get; set; }
 
         bool GetResult();
-
         void Calculate();
-
         void RegisterAtFactory(NodeFactory factory);
-
         BaseNode Clone();
     }
 }

@@ -5,32 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CircuitMagieDeluxe"
         mc:Ignorable="d"
-        Title="Circuit Magie Deluxe" Height="500" Width="1000">
+        Title="Circuit Magie Deluxe" Height="850" Width="1500">
     <StackPanel>
         
         <Menu IsMainMenu="True">
             <MenuItem Header="Bestand">
-                <MenuItem Header="Open Circuit"/>
+                <MenuItem Header="Open Circuit" Click="BuildCircuit"/>
             </MenuItem>
         </Menu>
 
-        <Canvas Height="300" Name="Canvas" >
+        <Canvas Height="600" Name="Canvas" Margin="50 50 0 0" >
         </Canvas>
 
         <StackPanel Orientation="Horizontal">
-            <ListView Name="input_List" Width="100">
+            <ListView Name="input_List" Width="200">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <CheckBox IsChecked="False" Content="Test"></CheckBox>
+                        <CheckBox IsChecked="{Binding IsChecked}" Content="{Binding Path=Item.Id}"></CheckBox>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
 
-            <TextBox Name="output_Text" Width="300" IsReadOnly="True" Height="150" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <TextBox Name="output_Text" Width="1000" IsReadOnly="True" Height="150" ScrollViewer.VerticalScrollBarVisibility="Auto">
             </TextBox>
 
             <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Button  Content="Simulate" Height="50" Width="200" Background="Green" FontSize="30"/>
+            <Button  Content="Simulate" Height="50" Width="200" Background="Green" FontSize="30" Margin="40" Click="SimulateCircuit"/>
 
         </StackPanel>
     </StackPanel>
