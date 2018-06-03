@@ -102,7 +102,7 @@ namespace CircuitMagieDeluxe
                 Canvas.SetTop(rectangle, y);
                 Canvas.SetLeft(rectangle, x);
                 TextBlock textBlock = new TextBlock();
-                textBlock.Text = node.Id + "\n" + node.Type;
+                textBlock.Text = node.Id + "\n" + node.Type + "\n" + node.PropogationDelay;
                 textBlock.Foreground = Brushes.Black;
                 Canvas.Children.Add(textBlock);
                 Canvas.SetTop(textBlock, y + 15);

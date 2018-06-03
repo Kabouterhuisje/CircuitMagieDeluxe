@@ -9,6 +9,16 @@ namespace CircuitMagieDeluxe.Models
 
         }
 
+        public Probe(int propagationDelay)
+        {
+            this.PropogationDelay = propagationDelay;
+        }
+
+        public int accept(Visitor visitor)
+        {
+            return visitor.visit(this);
+        }
+
         public override void Calculate()
         {
             if (Input.Count == 1)

@@ -13,6 +13,14 @@ namespace CircuitMagieDeluxe
         private List<INode> EndNodes;
         private List<INode> StartNodes;
         private NodeFactory NodeFactory;
+        private PropagationDelayVisitor delayCalc = new PropagationDelayVisitor();
+        private AndNode AND = new AndNode(15);
+        private NandNode NAND = new NandNode(15);
+        private NorNode NOR = new NorNode(15);
+        private NotNode NOT = new NotNode(15);
+        private OrNode OR = new OrNode(15);
+        private Probe PROBE = new Probe(15);
+        private XorNode XOR = new XorNode(15);
 
         public CircuitSimulator()
         {
@@ -74,7 +82,30 @@ namespace CircuitMagieDeluxe
                 INode newNode = (INode)NodeFactory.CreateNode(nodeItemStrings.Value);
                 newNode.Id = nodeItemStrings.Key;
                 newNode.Type = nodeItemStrings.Value;
-                newNode.PropogationDelay = 15; 
+                if(nodeItemStrings.Value == "and") {
+                    newNode.PropogationDelay = AND.accept(delayCalc);
+                }
+                else if (nodeItemStrings.Value == "nand") {
+                    newNode.PropogationDelay = NAND.accept(delayCalc);
+                }
+                else if (nodeItemStrings.Value == "nor") {
+                    newNode.PropogationDelay = NOR.accept(delayCalc);
+                }
+                else if (nodeItemStrings.Value == "not") {
+                    newNode.PropogationDelay = NOT.accept(delayCalc);
+                }
+                else if (nodeItemStrings.Value == "or") {
+                    newNode.PropogationDelay = OR.accept(delayCalc);
+                }
+                else if (nodeItemStrings.Value == "probe") {
+                    newNode.PropogationDelay = PROBE.accept(delayCalc);
+                }
+                else if (nodeItemStrings.Value == "xor") {
+                    newNode.PropogationDelay = XOR.accept(delayCalc);
+                }
+                else {
+                    newNode.PropogationDelay = 15;
+                }
                 AllNodes.Add(newNode);
             }
 

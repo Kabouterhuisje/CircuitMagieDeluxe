@@ -7,6 +7,16 @@
 
         }
 
+        public XorNode(int propagationDelay)
+        {
+            this.PropogationDelay = propagationDelay;
+        }
+
+        public int accept(Visitor visitor)
+        {
+            return visitor.visit(this);
+        }
+
         public override void Calculate()
         {
             Output = false;

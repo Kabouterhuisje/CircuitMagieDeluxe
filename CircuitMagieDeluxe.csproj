@@ -84,7 +84,10 @@
     <Compile Include="Models\NotNode.cs" />
     <Compile Include="Models\OrNode.cs" />
     <Compile Include="Models\Probe.cs" />
+    <Compile Include="Models\Visitable.cs" />
+    <Compile Include="Models\Visitor.cs" />
     <Compile Include="Models\XorNode.cs" />
+    <Compile Include="PropagationDelayVisitor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

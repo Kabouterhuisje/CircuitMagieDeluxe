@@ -1,10 +1,22 @@
-﻿namespace CircuitMagieDeluxe.Models
+﻿using System;
+
+namespace CircuitMagieDeluxe.Models
 {
-    class AndNode : BaseNode
+    class AndNode : BaseNode, Visitable
     {
         public AndNode() : base()
         {
 
+        }
+
+        public AndNode(int propagationDelay)
+        {
+            this.PropogationDelay = propagationDelay;
+        }
+
+        public int accept(Visitor visitor)
+        {
+            return visitor.visit(this);
         }
 
         public override void Calculate()
