@@ -217,7 +217,6 @@ namespace CircuitMagieDeluxe
                     }
                 }
             }
-
         }
 
         public List<INode> GetStartNodes()

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CircuitMagieDeluxe.App" Collapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.CircuitBuilder">
+    <Position X="8.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAAAAQAAAIAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CircuitBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="circuit" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.CircuitSimulator">
+    <Position X="11.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQAACIAhAAEAABAADCAACiMAAAABAAAAAIgACE=</HashCode>
+      <FileName>CircuitSimulator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="NodeFactory" />
+      <Field Name="delayCalc" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.MainWindow" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAABgAAAAAAAQAAEARgAEAACABAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="circuitBuilder" />
+      <Field Name="circuit" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CircuitMagieDeluxe.PropagationDelayVisitor" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PropagationDelayVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Helpers.CheckboxManager" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAAAAAAQAAAAEhAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\CheckboxManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Item" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Helpers.HelperNode">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABACAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\HelperNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Helpers.LineReader" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAIAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\LineReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Helpers.OutputPrinter" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Helpers\OutputPrinter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Models.AndNode">
+    <Position X="11.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AndNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Models.BaseNode">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAAAAAAAAAAAMAAAAECAAAIEAAUAAAAAAABA=</HashCode>
+      <FileName>Models\BaseNode.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Models.NandNode">
+    <Position X="7.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\NandNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Models.NodeFactory">
+    <Position X="14.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAEABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\NodeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Models.NorNode">
+    <Position X="14" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\NorNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Models.NotNode">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\NotNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Models.OrNode">
+    <Position X="5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\OrNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Models.Probe">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Probe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Models.XorNode">
+    <Position X="2.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\XorNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Properties.Resources" Collapsed="true">
+    <Position X="1.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircuitMagieDeluxe.Properties.Settings" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CircuitMagieDeluxe.Models.INode">
+    <Position X="3.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAMAAAAECAAAIEAAUAAAAAAABA=</HashCode>
+      <FileName>Models\INode.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CircuitMagieDeluxe.Models.Visitable">
+    <Position X="9.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Visitable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CircuitMagieDeluxe.Models.Visitor">
+    <Position X="11" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Visitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
