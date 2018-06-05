@@ -2,7 +2,7 @@
 
 namespace CircuitMagieDeluxe.Models
 {
-    class Probe : BaseNode
+   public class Probe : BaseNode
     {
         public Probe() : base()
         {

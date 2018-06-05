@@ -1,6 +1,6 @@
 ﻿namespace CircuitMagieDeluxe.Models
 {
-    class NotNode : BaseNode
+    public class NotNode : BaseNode
     {
         public NotNode() : base()
         {

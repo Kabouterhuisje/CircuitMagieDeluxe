@@ -1,6 +1,6 @@
 ﻿namespace CircuitMagieDeluxe.Models
 {
-    class OrNode : BaseNode
+    public class OrNode : BaseNode
     {
         public OrNode() : base()
         {

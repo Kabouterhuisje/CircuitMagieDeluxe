@@ -1,6 +1,6 @@
 ﻿namespace CircuitMagieDeluxe.Models
 {
-    interface Visitable
+   public interface Visitable
     {
         int accept(Visitor visitor);
     }

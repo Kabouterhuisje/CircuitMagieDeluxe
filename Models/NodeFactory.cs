@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CircuitMagieDeluxe.Models
 {
-    class NodeFactory
+    public class NodeFactory
     {
         private Dictionary<string, INode> _types;
 

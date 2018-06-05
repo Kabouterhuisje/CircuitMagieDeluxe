@@ -6,7 +6,7 @@ using System.Text;
 
 namespace CircuitMagieDeluxe
 {
-    class CircuitBuilder
+    public class CircuitBuilder
     {
         private Dictionary<string, string> Nodes;
         private Dictionary<string, List<string>> Edges;

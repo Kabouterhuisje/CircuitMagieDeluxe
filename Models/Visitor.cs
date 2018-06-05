@@ -1,6 +1,6 @@
 ﻿namespace CircuitMagieDeluxe.Models
 {
-    interface Visitor 
+    public interface Visitor 
     {
         int visit(AndNode AndNodeItem);
         int visit(NandNode NandNodeItem);

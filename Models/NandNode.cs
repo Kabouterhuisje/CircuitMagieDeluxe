@@ -1,6 +1,6 @@
 ﻿namespace CircuitMagieDeluxe.Models
 {
-    class NandNode : BaseNode
+    public class NandNode : BaseNode
     {
         public NandNode() : base()
         {

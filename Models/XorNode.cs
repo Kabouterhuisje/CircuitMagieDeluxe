@@ -1,6 +1,6 @@
 ﻿namespace CircuitMagieDeluxe.Models
 {
-    class XorNode : BaseNode
+    public class XorNode : BaseNode
     {
         public XorNode() : base()
         {

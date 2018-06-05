@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CircuitMagieDeluxe.Models
 {
-    class BaseNode : INode
+    public class BaseNode : INode
     {
         public String Id { get; set; }
         public String Type { get; set; }

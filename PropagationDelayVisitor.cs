@@ -2,7 +2,7 @@
 
 namespace CircuitMagieDeluxe
 {
-    class PropagationDelayVisitor : Visitor
+    public class PropagationDelayVisitor : Visitor
     {
         public PropagationDelayVisitor()
         {

@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace CircuitMagieDeluxe
 {
-    class CircuitSimulator
+    public class CircuitSimulator
     {
         private Dictionary<string, string> _nodes;
         private Dictionary<string, List<string>> _edges;

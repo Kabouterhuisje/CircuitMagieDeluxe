@@ -2,7 +2,7 @@
 
 namespace CircuitMagieDeluxe.Models
 {
-    class AndNode : BaseNode, Visitable
+    public class AndNode : BaseNode, Visitable
     {
         public AndNode() : base()
         {
