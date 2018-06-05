@@ -109,7 +109,7 @@ namespace CircuitMagieDeluxe
                 AllNodes.Add(newNode);
             }
 
-            // Lin edges aan nodes
+            // Link edges aan nodes
             foreach (var node in AllNodes)
             {
                 List<string> linkedEdges;
